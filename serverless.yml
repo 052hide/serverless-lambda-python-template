@@ -1,0 +1,19 @@
+org: 052hide
+app: serverless-lambda-python-template
+service: serverless-lambda-python-template
+
+frameworkVersion: '2'
+
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: ap-northeast-1
+  lambdaHashingVersion: 20201221
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-python-requirements

@@ -1,0 +1,14 @@
+{
+  "name": "serverless-lambda-python-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "052hide (hidetoshi1990@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.1"
+  }
+}
