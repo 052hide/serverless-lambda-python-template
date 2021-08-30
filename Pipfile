@@ -7,12 +7,13 @@ name = "pypi"
 python-dateutil = "*"
 
 [dev-packages]
+python-lambda-local = "*"
 
 [requires]
 python_version = "3.9"
 
 [scripts]
-start = "python handler.py runserver"
+start = "python-lambda-local -f hello handler.py event.json"
 test = "python -m unittest discover -v"
 format = "autopep8 -ivr ."
 lint = "flake8 --show-source ."
